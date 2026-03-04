@@ -1,4 +1,5 @@
 ﻿import component from "@/locales/en-US/component";
+import { Redirect } from "react-router";
 
 export default [
 	{
@@ -49,7 +50,21 @@ export default [
 		name: 'baitap01',
 		component: './BaiTap01',
 	},
-
+	{
+		path: '/baitap02',
+		name: 'baitap02',
+		component: './BaiTap02/pages',
+	},
+	{
+		path: '/bai1',
+		name: 'bai1',
+		component: './TH01/Bai1',
+	},
+	{
+		path: '/bai2',
+		name: 'bai2',
+		component: './TH01/Bai2',
+	},
 	// DANH MUC HE THONG
 	// {
 	// 	name: 'DanhMuc',
@@ -88,6 +103,7 @@ export default [
 	},
 	{
 		path: '/',
+		redirect: '/dashboard',
 	},
 	{
 		path: '/403',
@@ -100,6 +116,7 @@ export default [
 		layout: false,
 	},
 	{
+		path: '*',
 		component: './exception/404',
 	},
 ];

@@ -1,5 +1,4 @@
 ﻿import component from "@/locales/en-US/component";
-import { Redirect } from "react-router";
 
 export default [
 	{
@@ -56,14 +55,24 @@ export default [
 		component: './BaiTap02/pages',
 	},
 	{
-		path: '/bai1',
-		name: 'bai1',
+		path: '/TH01-bai1',
+		name: 'Bài 1 - Trò chơi đoán số',
 		component: './TH01/Bai1',
 	},
 	{
-		path: '/bai2',
-		name: 'bai2',
+		path: '/TH01-bai2',
+		name: 'Bài 2 - Theo dõi và quản lý tiến độ học tập',
 		component: './TH01/Bai2',
+	},
+	{
+		path: '/TH02-bai1',
+		name: 'Bài 1 - Trò chơi Oẳn tù tì',
+		component: './TH02/Bai1',
+	},
+	{
+		path: '/TH02-bai2',
+		name: 'Bài 2 - Ngân hàng câu hỏi',
+		component: './TH02/Bai2',
 	},
 	// DANH MUC HE THONG
 	// {

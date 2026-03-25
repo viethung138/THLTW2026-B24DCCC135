@@ -74,6 +74,16 @@ export default [
 		name: 'Bài 2 - Ngân hàng câu hỏi',
 		component: './TH02/Bai2',
 	},
+	{
+		path: '/TH03',
+		name: 'Xây dựng ứng dụng',
+		component: './TH03',
+	},
+	{
+		path: '/TH04',
+		name: 'Quản lý sổ văn bằng tốt nghiệp',
+		component: './TH04',
+	},
 	// DANH MUC HE THONG
 	// {
 	// 	name: 'DanhMuc',

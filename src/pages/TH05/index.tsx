@@ -8,18 +8,18 @@ export default function App() {
     const [page, setPage] = useState("club");
 
     return (
-    <div>
-        <button onClick={() => setPage("club")}>CLB</button>
-        <button onClick={() => setPage("app")}>Đơn</button>
-        <button onClick={() => setPage("member")}>Thành viên</button>
-        <button onClick={() => setPage("dashboard")}>Thống kê</button>
+        <div>
+            <button onClick={() => setPage("club")}>CLB</button>
+            <button onClick={() => setPage("app")}>Đơn</button>
+            <button onClick={() => setPage("member")}>Thành viên</button>
+            <button onClick={() => setPage("dashboard")}>Thống kê</button>
 
-        <hr />
+            <hr />
 
-        {page === "club" && <Club />}
-        {page === "app" && <Application />}
-        {page === "member" && <Member />}
-        {page === "dashboard" && <Dashboard />}
-    </div>
+            {page === "club" && <Club />}
+            {page === "app" && <Application />}
+            {page === "member" && <Member />}
+            {page === "dashboard" && <Dashboard />}
+        </div>
     );
 }

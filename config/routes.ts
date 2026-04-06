@@ -84,6 +84,11 @@ export default [
 		name: 'Quản lý sổ văn bằng tốt nghiệp',
 		component: './TH04',
 	},
+	{
+		path: '/TH05',
+		name: 'Xây dựng hệ thống quản lý clb',
+		component: './TH05',
+	},
 	// DANH MUC HE THONG
 	// {
 	// 	name: 'DanhMuc',

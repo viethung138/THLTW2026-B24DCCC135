@@ -1,10 +1,20 @@
 module.exports = {
 	extends: [require.resolve('@umijs/fabric/dist/eslint')],
+
+	// override parser để không dùng babel nữa
+	parser: 'espree',
+
+	parserOptions: {
+		ecmaVersion: 2020,
+		sourceType: 'module',
+	},
+
 	globals: {
 		ANT_DESIGN_PRO_ONLY_DO_NOT_USE_IN_YOUR_PRODUCTION: true,
 		page: true,
 		REACT_APP_ENV: true,
 	},
+
 	rules: {
 		'@typescript-eslint/no-namespace': 'off',
 		'@typescript-eslint/no-unused-vars': 'off',

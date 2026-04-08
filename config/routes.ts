@@ -89,6 +89,11 @@ export default [
 		name: 'Xây dựng hệ thống quản lý clb',
 		component: './TH05',
 	},
+	{
+		path: '/TH06',
+		name: 'Xây dựng ứng dụng lập kế hoạch du lịch',
+		component: './TH06',
+	},
 	// DANH MUC HE THONG
 	// {
 	// 	name: 'DanhMuc',

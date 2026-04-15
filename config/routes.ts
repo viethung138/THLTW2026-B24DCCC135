@@ -1,6 +1,4 @@
-﻿import component from "@/locales/en-US/component";
-
-export default [
+﻿export default [
 	{
 		path: '/user',
 		layout: false,
@@ -84,6 +82,22 @@ export default [
 		name: 'Quản lý sổ văn bằng tốt nghiệp',
 		component: './TH04',
 	},
+	{
+		path: '/TH05',
+		name: 'Xây dựng hệ thống quản lý clb',
+		component: './TH05',
+	},
+	{
+		path: '/TH06',
+		name: 'Xây dựng ứng dụng lập kế hoạch du lịch',
+		component: './TH06',
+	},
+	{
+		path: '/KTGK',
+		name: 'KTGK - Quản lý đơn hàng',
+		component: './KTGK',
+	},
+
 	// DANH MUC HE THONG
 	// {
 	// 	name: 'DanhMuc',

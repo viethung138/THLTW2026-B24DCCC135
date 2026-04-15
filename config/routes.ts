@@ -94,6 +94,12 @@ export default [
 		name: 'Xây dựng ứng dụng lập kế hoạch du lịch',
 		component: './TH06',
 	},
+	{
+		path: '/KTGK',
+		name: 'Quản lý đơn hàng',
+		component: './KTGK',
+	},
+
 	// DANH MUC HE THONG
 	// {
 	// 	name: 'DanhMuc',

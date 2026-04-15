@@ -1,6 +1,4 @@
-﻿import component from "@/locales/en-US/component";
-
-export default [
+﻿export default [
 	{
 		path: '/user',
 		layout: false,
@@ -96,7 +94,7 @@ export default [
 	},
 	{
 		path: '/KTGK',
-		name: 'Quản lý đơn hàng',
+		name: 'KTGK - Quản lý đơn hàng',
 		component: './KTGK',
 	},
 

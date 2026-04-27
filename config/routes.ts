@@ -1,6 +1,4 @@
-﻿import component from "@/locales/en-US/component";
-
-export default [
+﻿export default [
 	{
 		path: '/user',
 		layout: false,
@@ -98,28 +96,6 @@ export default [
 		path: '/TH07',
 		name: 'Personal Blog',
 		component: './TH07',
-		routes: [
-			{
-				path: '/TH07/post/:slug',
-				component: './TH07/PostDetail',
-				hideInMenu: true,
-			},
-			{
-				path: '/TH07/about',
-				component: './TH07/About',
-				hideInMenu: true,
-			},
-			{
-				path: '/TH07/management/posts',
-				component: './TH07/PostManagement',
-				hideInMenu: true,
-			},
-			{
-				path: '/TH07/management/tags',
-				component: './TH07/TagManagement',
-				hideInMenu: true,
-			},
-		],
 	},
 	// DANH MUC HE THONG
 	// {

@@ -93,6 +93,15 @@
 		component: './TH06',
 	},
 	{
+		path: '/TH07',
+		name: 'Personal Blog',
+		component: './TH07',
+	},
+	{
+		path: '/TH08',
+		name: 'Xây dựng ứng dụng thể dục, theo dõi sức khỏe',
+		component: './TH08',
+	},
 		path: '/KTGK',
 		name: 'KTGK - Quản lý đơn hàng',
 		component: './KTGK',

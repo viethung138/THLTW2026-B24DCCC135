@@ -102,6 +102,11 @@
 		name: 'Xây dựng ứng dụng thể dục, theo dõi sức khỏe',
 		component: './TH08',
 	},
+		path: '/KTGK',
+		name: 'KTGK - Quản lý đơn hàng',
+		component: './KTGK',
+	},
+
 	// DANH MUC HE THONG
 	// {
 	// 	name: 'DanhMuc',

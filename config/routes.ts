@@ -97,6 +97,11 @@
 		name: 'Personal Blog',
 		component: './TH07',
 	},
+	{
+		path: '/TH08',
+		name: 'Xây dựng ứng dụng thể dục, theo dõi sức khỏe',
+		component: './TH08',
+	},
 	// DANH MUC HE THONG
 	// {
 	// 	name: 'DanhMuc',

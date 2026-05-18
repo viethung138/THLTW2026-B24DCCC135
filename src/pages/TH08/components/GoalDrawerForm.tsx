@@ -43,7 +43,7 @@ export default function GoalDrawerForm({ open, onSubmit, onClose }: GoalDrawerFo
   return (
     <Drawer
       title="Thêm mục tiêu mới"
-      open={open}
+      visible={open}
       onClose={onClose}
       width={480}
       footer={

@@ -50,7 +50,7 @@ export default function WorkoutForm({ open, workout, onSubmit, onCancel }: Worko
   return (
     <Modal
       title={isEdit ? 'Sửa buổi tập' : 'Thêm buổi tập mới'}
-      open={open}
+      visible={open}
       onOk={handleOk}
       onCancel={onCancel}
       okText={isEdit ? 'Cập nhật' : 'Thêm'}

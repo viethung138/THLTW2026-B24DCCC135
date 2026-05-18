@@ -77,7 +77,7 @@ export default function HealthMetricForm({ open, metric, onSubmit, onCancel }: H
   return (
     <Modal
       title={isEdit ? 'Sửa chỉ số sức khỏe' : 'Thêm chỉ số sức khỏe'}
-      open={open}
+      visible={open}
       onOk={handleOk}
       onCancel={onCancel}
       okText={isEdit ? 'Cập nhật' : 'Thêm'}

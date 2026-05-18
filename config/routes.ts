@@ -102,6 +102,12 @@
 		name: 'Xây dựng ứng dụng thể dục, theo dõi sức khỏe',
 		component: './TH08',
 	},
+	{
+		path: '/TH09',
+		name: 'Ứng dụng quản lý công việc - Kanban Board',
+		component: './TH09',
+	},
+	{
 		path: '/KTGK',
 		name: 'KTGK - Quản lý đơn hàng',
 		component: './KTGK',
